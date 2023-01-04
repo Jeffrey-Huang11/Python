@@ -45,3 +45,8 @@ class LinkedList:
 					current_node = None
 				else:
 					current_node = next_node
+
+lis = LinkedList()
+lis.insert_beginning(100)
+lis.insert_beginning(200)
+print(lis.stringify_list())
